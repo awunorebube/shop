@@ -1,0 +1,13 @@
+{% extends 'base.html'%}
+{% block title %}
+HOME
+{% endblock %}
+
+{% block content %}
+<h2> HOME PAGE </h2>
+
+<a href="{{ url_for('register')}}">REGISTER </a><br>
+<a href="{{ url_for('login')}}">LOGIN </a>
+
+{% endblock %}
+
